@@ -1,0 +1,466 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.first{
+  padding: 15px;
+  gap: 20px;
+  background-image: url(/images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* width: 50%; */
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+}
+.history{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin-bottom: 10px; */
+    gap: 17px;
+    padding: 20px;
+}
+.everything img{
+    height: 10vh;
+}
+.history h2{
+    color: hsl(210, 10%, 33%);
+}
+
+.history p{
+    width: 38vw;
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+}
+.but{
+    display: flex;
+    gap: 10px;
+
+}
+.b{
+    height: 5vh;
+    width: 18vw;
+    border-radius: 15px;
+    color: whitesmoke;
+    border: none;
+    background-color: green;
+}
+.c{
+    height: 5vh;
+    width: 18vw;
+    color: whitesmoke;
+    border-radius: 15px;
+    border: none;
+    background-color: blue;
+}
+/* .second{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+} */
+.track{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    flex-direction: column;
+
+}
+.keep{
+    display: flex;
+    flex-direction: column;
+    width: 41vw;
+    padding-bottom: 30px;
+    gap: 10px;
+    text-align: center;
+}
+.keep h2{
+    color: hsl(210, 10%, 33%);
+}
+.keep p{
+    color: hsl(201, 11%, 66%);
+}
+.quick2{
+    display: flex;
+    gap: 20px;
+}
+.complete1 h3, .complete2 h3, .complete3 h3{
+    color:  hsl(210, 10%, 33%);
+}
+
+.complete1 p, .complete2 p, .complete3 p{
+   width: 20vw;
+   font-size: small;
+   color: hsl(201, 11%, 66%);;
+}
+.complete1 , .complete2, .complete3{
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+} 
+.para{
+    /* margin-left: 120px; */
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    /* justify-content: space-around; */
+}
+.computer img{
+    width: 30vw;
+}
+.search{
+    display: flex;
+    /* flex-direction: row; */
+    /* justify-content: space-between; */
+}
+.third{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+}
+.access{
+    padding: 30px;   
+
+
+}
+.clipboard{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 30vw;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.clipboard h2{
+    color: hsl(210, 10%, 33%);
+}
+.clipboard p{
+    color: hsl(201, 11%, 66%);
+}
+.device img{
+    width: 30vw;
+  
+}
+.four{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+.change{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* gap: 20px; */
+
+}
+.workflow{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+
+}
+.workflow h2{
+    color:  hsl(210, 10%, 33%);
+}
+.workflow p{
+    color:  hsl(201, 11%, 66%);
+}
+.blacklist{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 40px;
+    align-items: center;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.create img{
+    height: 4vh;
+}
+.create{
+    width: 46vh;
+    text-align: center;
+    font-size: 14px;
+}
+.create h4{
+    color:  hsl(210, 10%, 33%);
+}
+.create p{
+    color:  hsl(201, 11%, 66%);
+}
+.plain{
+    width: 43vh;
+    text-align: center;
+    font-size: 14px; 
+}
+.plain h4{
+    color:  hsl(210, 10%, 33%);
+}
+.plain p{
+    color:  hsl(201, 11%, 66%);
+}
+.plain img{
+    height: 4vh;
+}
+.sneak{
+    width: 43vh;
+    text-align: center;
+    font-size: 14px;
+}
+.sneak h4{
+    color:  hsl(210, 10%, 33%);
+}
+.sneak p{
+    color:  hsl(201, 11%, 66%);
+}
+.sneak img{
+    height: 4vh;
+}
+
+.five{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+
+}
+.google{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 70px;
+    gap: 50px;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.log{
+    /* width: 4vw; */
+    height: 5vh;
+    display: flex;
+}
+
+.ios-div{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 20px;
+
+}
+.mac{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    text-align: center;
+    width: 40vw;
+
+}
+.mac h2{
+    color:  hsl(210, 10%, 33%);
+}
+.mac p{
+    color:  hsl(201, 11%, 66%);
+}
+.foot-div{ 
+    background-color:  hsl(202, 18%, 88%);
+
+}
+.down{
+    height: 5vh;
+    width: 18vw;
+    border-radius: 15px;
+    color: whitesmoke;
+    border: none;
+    background-color: green;
+}
+.ton{
+    display: flex;
+    gap: 15px;
+}
+.up{
+    height: 5vh;
+    width: 18vw;
+    border-radius: 15px;
+    border: none;
+    color: whitesmoke;
+    background-color: rgb(66, 66, 202);
+}
+.end-div{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    gap: 20px;
+
+}
+.long-div{
+    height: 5vh;
+    display: flex;
+
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color:   hsl(210, 10%, 33%);
+}
+.press{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color:   hsl(210, 10%, 33%);
+}
+.guide p{
+    color:   hsl(210, 10%, 33%);
+}
+.icon-div{
+    display: flex;
+    gap: 20px;
+    height: 3vh;
+}
+
+
+
+@media screen and  (max-width: 950px) {
+    .history{
+      text-align: center;
+    }
+    .history p{
+        width: 70vw;
+    }
+    .but{
+        display: flex;
+        flex-direction: column;
+    }
+    .b, .c{
+        width: 50vw;
+    } 
+    .track{
+        padding-top: 30%;
+    }
+    .keep{
+        width: 69%;
+    }
+    .quick2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+    .para{
+        display: flex;
+        text-align: center;
+    }
+    .computer img{
+        width: 80vw;
+    }
+    .complete1 p, .complete2 p, .complete3 p{
+        width: 50vw;
+    }
+    .ios-div{
+        display: flex;
+        gap: 30px;
+    }
+    .mac{
+        width: 70vw;
+    }
+    .end-div{
+        display: flex;
+        flex-direction: column;
+    }
+    .blacklist{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+    
+    
+    .access{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .device img{
+        width: 80vw
+    }
+
+    .clipboard{
+      width: 69vw;
+    }
+    .workflow{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        width: 55vw;
+        gap: 10px;
+    }
+    .ton{
+        display: flex;
+        flex-direction: column;
+    }
+    .down{
+        width: 50vw;
+    }
+    .up{
+        width: 50vw;
+    }
+    .log img{
+        width: 30vw;
+    }
+    .google{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+    }
+    .end-div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 33px;
+        
+        
+    }
+    .contact{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* gap: 20px; */
+    }
+    .press{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .long div{
+        display: flex;
+        gap: 40px;
+        align-items: center;
+        
+    }
+    .long-div img{
+        width: 50px;
+        height: 50px;
+    }
